@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STEIN.INC</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css? family=Kaushan+Script|Poppings&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale =1">
+    </head>
+    <body>
+        <section id="banner">
+            <img src="images/logo1.json" class="logo">
+            <div class="banner-text">
+                <h1>STEIN.INC</h1>
+                <p>Get The Latest Updates Of Apps Which Are Available On Windows And Android.</p>
+                <div class="banner-btn">
+                    <a href="#"><span></span>Windows Apps And Games</a>
+                    <a href="#"><span></span>Android Apps And Games</a>
+                </div>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><h4><a href="#"><big><em>MENU</em></big></a></h4></li>
+                    <hr>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SIGN IN</a></li>
+                    <li><a href="#">SIGN UP</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">TESTIMONIES</a></li>
+                    <li><a href="#">MEET US</a></li>
+                    <li><a href="#">WINDOWS</a></li>
+                    <li><a href="#">ANDROID</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="images/list.png" id="menu">
+        </div>
+        <!--Features-->
+
+        <section id="feature">
+            <div class="title-text">
+                <p>FEATURES</p>
+                <h1>Why Choose Us</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>Experienced Staff</h1>
+                    <div class="features-desc">
+                        <div class="feature-text">
+                            <p>This represents samples of our excellent works for you!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-img">
+                    <img src="images/banner.jpg" 
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                }
+            }
+        </script>
+
+
+
+    
+    </body>
+</html>

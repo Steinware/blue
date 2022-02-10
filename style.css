@@ -75,7 +75,7 @@
     position: fixed;
     right: -250px;
     top: 0;
-    background: gradient (0,0,0,darkblue);
+    background: gradient (0,0,0,powderblue);
     z-index: 2;
     transition: 0.5s;
 }
